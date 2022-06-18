@@ -1,0 +1,824 @@
+@media (max-width: 1000px) {
+
+
+    /*商品區*/
+    .right,
+    .right.sticky {
+
+        float: unset !important;
+        width: 100% !important;
+    }
+
+    .list_pic {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+
+    .list_pic .item {
+        width: 200px !important;
+
+        margin-right: auto;
+    }
+
+    .nc-gl-sort-bar#main-nav {
+        width: 100%;
+        height: 72px;
+    }
+
+    .sort-bar {
+        display: grid !important;
+        grid-template-rows: 1fr 1fr;
+        height: 72px !important;
+        justify-content: space-around;
+
+
+    }
+
+
+
+
+    .sort-bar .bar-r {
+        grid-row: 2/3;
+        width: 550px;
+        float: unset !important;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sort-bar .bar-l {
+        width: 550px;
+        float: unset !important;
+        margin: auto;
+    }
+
+    .pagination {
+        float: unset !important;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .content {
+        display: flex;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .left {
+        float: unset !important;
+    }
+
+    /*keyword*/
+    .keyword {
+        width: 100% !important;
+    }
+}
+
+@media (max-width :1000px) {
+
+    body {
+        width: 100%;
+    }
+
+    /*鑽上面*/
+    #topNav {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #page {
+        height: 58px !important;
+        position: relative;
+    }
+
+    .quick-menu {
+        display: flex;
+        justify-content: space-between;
+
+        position: unset !important;
+        top: unset !important;
+        right: unset !important;
+        width: 100% !important;
+    }
+
+    #google_translate_element {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+
+    /*搜尋欄*/
+
+
+    #search.search {
+        position: absolute;
+        left: unset !important;
+        right: 5px;
+    }
+
+    #search .details {
+        width: 100% !important;
+    }
+
+    #topHeader {
+        width: 100% !important;
+        max-width: 800px;
+    }
+
+    /*navbar*/
+
+    #navBar.mb10 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nc-nav-menu {
+        width: 535px !important;
+        margin-left: 0px !important;
+    }
+
+
+
+    /*所有商品分類*/
+
+
+
+    /*wrap all*/
+
+    .mb10.warp-all {
+        width: 100%;
+    }
+
+    /*fl w780*/
+
+
+    .fr {
+        display: block !important;
+        float: unset !important;
+    }
+
+    .fl {
+        float: unset !important;
+        display: block !important;
+    }
+
+    .fr.w780 {
+        display: grid !important;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+        width: 100% !important;
+
+    }
+
+    .fl.w530 {
+        grid-row: 1/2;
+        margin: auto;
+        position: relative;
+        left: 110px;
+
+    }
+
+    .fr.w240 {
+        grid-row: 2/3;
+        width: 750px;
+        margin: auto;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    #quickLink.module-sidebar-style1.mb10 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+
+
+    .module-sidebar-style1.mb10.nc-home-news {
+        width: 99%;
+
+    }
+
+    /* nc-home-pattern style-red  */
+
+    .nc-home-pattern.style-red,
+    .nc-home-pattern.style-blue,
+    .nc-home-pattern.style-pink,
+    .nc-home-pattern.style-orange,
+    .nc-home-pattern.style-purple,
+    .nc-home-pattern.style-brown {
+        width: 750px;
+        height: unset;
+        display: grid;
+        grid-template-rows: 2fr 0.5fr 0.5fr;
+        row-gap: 2em;
+        margin: auto;
+    }
+
+    .nc-home-pattern.style-blue,
+    .nc-home-pattern.style-pink,
+    .nc-home-pattern.style-orange,
+    .nc-home-pattern.style-purple,
+    .nc-home-pattern.style-brown {
+        grid-template-rows: 2fr 0.5fr;
+    }
+
+
+
+
+    .nc-home-pattern .middle {
+        grid-row: 1/2;
+        width: 100% !important;
+    }
+
+    .nc-home-pattern.style-red .middle ul,
+    .nc-home-pattern.style-blue .middle ul,
+    .nc-home-pattern.style-pink .middle ul,
+    .nc-home-pattern.style-orange .middle ul,
+    .nc-home-pattern.style-purple .middle ul,
+    .nc-home-pattern.style-brown .middle ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nc-home-pattern .middle ul li {
+        float: unset !important;
+    }
+
+    .nc-home-pattern .middle .tabs-panel {
+        width: 100%;
+    }
+
+    .nc-home-pattern.style-red .rightbar,
+    .nc-home-pattern.style-blue .rightbar,
+    .nc-home-pattern.style-pink .rightbar,
+    .nc-home-pattern.style-orange .rightbar,
+    .nc-home-pattern.style-purple .rightbar,
+    .nc-home-pattern.style-brown .rightbar {
+        grid-row: 2/3;
+        width: 100%;
+        height: unset;
+    }
+
+    .nc-home-pattern.style-red .rightbar ol,
+    .nc-home-pattern.style-blue .rightbar ol,
+    .nc-home-pattern.style-pink .rightbar ol,
+    .nc-home-pattern.style-orange .rightbar ol,
+    .nc-home-pattern.style-purple .rightbar ol,
+    .nc-home-pattern.style-brown .rightbar ol {
+        display: flex;
+        overflow: visible;
+        width: 100%;
+        justify-content: space-around;
+        height: unset;
+    }
+
+
+
+    .nc-home-pattern .rightbar .ad-banner {
+        display: none;
+    }
+
+    .nc-home-pattern.style-red .leftbar,
+    .nc-home-pattern.style-blue .leftbar,
+    .nc-home-pattern.style-pink .leftbar,
+    .nc-home-pattern.style-orange .leftbar,
+    .nc-home-pattern.style-purple .leftbar,
+    .nc-home-pattern.style-brown .leftbar {
+        display: none;
+    }
+
+    .nc-home-pattern.style-red .bottom-bar {
+        border-width: 1px;
+    }
+
+    .nc-home-pattern.style-blue .bottom-bar,
+    .nc-home-pattern.style-pink .bottom-bar,
+    .nc-home-pattern.style-orange .bottom-bar,
+    .nc-home-pattern.style-purple .bottom-bar,
+    .nc-home-pattern.style-brown .bottom-bar {
+        display: none;
+    }
+
+    /*mt10*/
+    .mt10 {
+        text-align: center;
+    }
+
+    .mt10 img {
+        width: 750px !important;
+        height: 67.5px !important;
+    }
+
+    /*full_module*/
+
+    .full_module {
+        box-sizing: border-box;
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .piclink,
+    .textlink {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    /*faq*/
+    #faq {
+        width: 500px !important;
+    }
+
+    /**  #footer**/
+
+    #footer {
+        width: 100% !important;
+    }
+
+    /*右邊按鈕*/
+    .backToTop {
+        z-index: 2000 !important;
+    }
+
+}
+
+
+
+/*---------------phone----------------*/
+
+@media (max-width :780px) {
+
+    /*topheader 搜尋欄*/
+    #topHeader {
+        display: flex;
+        flex-direction: column;
+        height: 150px !important;
+        align-items: center;
+    }
+
+    .site-logo {
+        position: unset !important;
+
+    }
+
+    #search.search {
+        position: relative;
+
+        width: 100% !important;
+    }
+
+    #search.search .textinput {
+        width: 70% !important;
+
+    }
+
+    #search.search .form {
+        width: 80%;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .details {
+        width: 100% !important;
+    }
+
+    .details .tab {
+        width: 100%;
+        right: 0px;
+        margin: auto;
+    }
+
+    #search .tag {
+        width: 100px !important;
+        right: 0px;
+        margin: auto;
+
+    }
+
+    /*所有商品分類*/
+
+    #navBar #all-category {
+        position: absolute;
+        top: 244px;
+        width: 90%;
+    }
+
+    #navBar #all-category .title {
+        width: 100%;
+
+    }
+
+    #category {
+        width: 100% !important;
+    }
+
+    .category ul.menu {
+        width: 100% !important;
+        box-sizing: border-box;
+
+    }
+
+    .category ul.menu li {
+        width: 200px;
+        margin: auto;
+        position: relative;
+
+
+    }
+
+
+    .category ul.menu li:hover::after {
+        position: absolute;
+        top: -2px;
+        left: 6px;
+        width: 100%;
+        height: 100%;
+        content: "";
+        border-right: 1px solid rgb(254, 133, 2);
+
+    }
+
+
+
+    .category ul.menu .cat-menu {
+        display: none !important;
+    }
+
+
+
+
+    /*fr w780*/
+
+    .fl.w530 {
+
+        display: none !important;
+    }
+
+    .fr.w240 {
+        grid-row: 2/3;
+        width: 90% !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+
+    #quickLink.module-sidebar-style1.mb10 {
+        grid-column: 1/2;
+    }
+
+
+    /*middle*/
+
+
+
+    .nc-home-pattern.style-red,
+    .nc-home-pattern.style-blue,
+    .nc-home-pattern.style-pink,
+    .nc-home-pattern.style-orange,
+    .nc-home-pattern.style-purple,
+    .nc-home-pattern.style-brown {
+        width: 90% !important;
+        margin: 50px auto;
+
+    }
+
+    .nc-home-pattern .bottom-bar {
+        width: 100% !important;
+        height: unset !important;
+
+    }
+
+    .nc-home-pattern .bottom-bar .brands {
+        display: flex;
+        flex-wrap: wrap;
+        height: unset !important;
+    }
+
+
+    .nc-home-pattern.style-red .middle ul,
+    .nc-home-pattern.style-blue .middle ul,
+    .nc-home-pattern.style-pink .middle ul,
+    .nc-home-pattern.style-orange .middle ul,
+    .nc-home-pattern.style-purple .middle ul,
+    .nc-home-pattern.style-brown .middle ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nc-home-pattern.style-red .rightbar ol,
+    .nc-home-pattern.style-blue .rightbar ol,
+    .nc-home-pattern.style-pink .rightbar ol,
+    .nc-home-pattern.style-orange .rightbar ol,
+    .nc-home-pattern.style-purple .rightbar ol,
+    .nc-home-pattern.style-brown .rightbar ol {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+
+    /*mt10*/
+
+    .mt10 a {
+        width: 100%;
+        display: block;
+    }
+
+    .mt10 img {
+        width: 100% !important;
+        height: unset !important;
+    }
+
+    /*faq*/
+
+    #faq {
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+
+
+}
+
+/*510*/
+
+@media (max-width: 510px) {
+
+    .quick-menu {
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    #page {
+        height: 80px !important;
+    }
+
+
+    #navBar #all-category {
+        top: 264px;
+
+    }
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+
+    /*商品區*/
+    .right,
+    .right.sticky {
+
+        float: unset !important;
+        width: 100% !important;
+    }
+
+    .list_pic {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+
+    .list_pic .item {
+        width: 200px !important;
+
+        margin-left: 5%;
+    }
+
+    .nc-gl-sort-bar#main-nav {
+        width: 100%;
+        height: 72px;
+    }
+
+    .sticky #main-nav {
+        right: 30px
+    }
+
+    .sort-bar {
+        display: grid !important;
+        grid-template-rows: 1fr 1fr;
+        height: 72px !important;
+        justify-content: space-around;
+
+
+    }
+
+
+
+
+    .sort-bar .bar-r {
+        grid-row: 2/3;
+        width: 550px;
+        float: unset !important;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sort-bar .bar-l {
+        width: 550px;
+        float: unset !important;
+        margin: auto;
+    }
+
+    .pagination {
+        float: unset !important;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+    .content {
+        display: flex;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .left {
+        float: unset !important;
+        width: 200px !important;
+    }
+
+    /*keyword*/
+    .keyword {
+        width: 100% !important;
+    }
+}
+
+/*iphone*/
+
+@media (max-width:780px) {
+
+    .left {
+        width: unset !important;
+    }
+
+    .keyword {
+        margin-top: 50px;
+    }
+
+    .left .module_sidebar {
+        width: 120px !important;
+    }
+
+    .side_category dl {
+        width: 120px !important;
+    }
+
+    .module_sidebar img {
+        width: 120px !important;
+        height: unset !important;
+    }
+
+    .module_sidebar .picture img {
+        width: 60px !important;
+    }
+
+}
+
+@media (max-width:700px) {
+    .nc-gl-sort-bar#main-nav {
+        height: 108px !important;
+    }
+
+    .sort-bar {
+        height: 108px !important;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .switch,
+    .array,
+    .prices {
+        float: unset !important;
+    }
+
+    .switch span {
+        margin-left: 5%;
+    }
+
+    .prices {
+        grid-column: 1/3;
+        margin: auto;
+    }
+
+    .bar-r {
+        width: 100% !important;
+    }
+
+    .sort-bar .bar-l {
+        width: 100% !important;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width:540px) {
+    .sort-bar .bar-l {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .prices {
+        grid-column: 1/2;
+    }
+
+    .switch span {
+        margin-left: 20%;
+    }
+
+    .nc-gl-sort-bar#main-nav {
+        height: 144px !important;
+    }
+
+    .sort-bar {
+        height: 144px !important;
+    }
+}
+
+@media (max-width:380px) {
+
+    .nc-gl-sort-bar#main-nav {
+        height: 180px !important;
+    }
+
+    .sort-bar {
+        height: 180px !important;
+    }
+}
+
+/*=============================所有商品=================================*/
+
+@media (max-width :1000px) {
+    .recommend .shop_assort dd {
+        width: 100% !important;
+    }
+}
+
+@media (max-width :780px) {
+    .module_sidebar {
+        width: 100% !important;
+    }
+}
+
+/*============================文章==================================*/
+
+@media (max-width:1000px) {
+    .shop_text_list {
+        width: 98% !important;
+        margin: auto;
+
+    }
+
+    .shop_text_list tr {
+        position: relative;
+    }
+
+    .shop_text_list .w150 {
+        position: absolute;
+        right: -40px;
+        top: 10px;
+    }
+
+    .left .module_sidebar {
+        width: 120px !important;
+    }
+
+    .content .right {
+        width: 100% !important;
+    }
+
+    .content .right .article_wrap {
+        width: 80% !important;
+    }
+
+    .default p,
+    .default p span {
+        font-size: 1.2em !important;
+    }
+
+
+
+    .default img {
+        width: 80% !important;
+        height: unset !important;
+    }
+}

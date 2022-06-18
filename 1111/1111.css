@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/kv_bg.jpg);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.grey {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(119,119,119);
+    display: flex;
+    align-items: center;
+}
+
+.grey .left{
+    margin: 15px;
+}
+
+.grey .left img {
+    width: 120px;
+}
+
+.grey a{
+    font-size: 16px;
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.grey ul {
+    right: 0px;
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+}
+
+.grey li {
+    margin: 15px;
+}
+
+.grey a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.blue {
+    background-color: rgb(27,121,162);
+    height: 90px;
+    display: grid;
+    grid-template-columns: 4fr 10fr 0.8fr;
+    align-items: center;
+
+}
+
+.blue img {
+    width: 300px;
+}
+
+.blue ul {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+}
+
+.blue li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+}
+
+.blue li:hover{
+    background-color: rgb(59,161,194);
+}
+
+.blue ul a {
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.blue .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: aliceblue;
+    transition: all .15s;
+
+}
+
+.blue .login a{
+    color: rgb(27,121,162);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.blue .login:hover {
+    background-color: rgb(136,246,255);
+}
+
+.content {
+    width: 100%;
+    height: 60em;
+    position: relative;
+}
+
+.content .bear {
+    width: 75em;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    z-index: -1;
+}
+
+.content .school {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.content .item {
+    position: absolute;
+    top: 60px;
+    left: 10em;
+    text-align: center;
+}
+
+.content .item h1 {
+    font-size: 5em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,107,0);
+}
+
+.content .item h3 {
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 4em;
+    color: white;
+    font-size: 1.5em;
+    background-color:rgb(255,107,0) ;
+}
