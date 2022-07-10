@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 6rem;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+
+}
+
+.header p {
+    font-family: 'Anton';
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    font-style: italic;
+}
+
+.topnav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+}
+
+.topnav ul {
+    display: flex;
+}
+
+.topnav ul li {
+    list-style: none;
+    margin: 0 2rem;
+    border-radius: 18px;
+    padding: 5px;
+    background-color: rgb(212, 212, 212);
+    transition: all 0.2s;
+}
+
+.topnav ul li:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.topnav .search {
+    position: absolute;
+    right: 5px;
+}
+
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.footer h3 {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+    .topnav {
+        padding: 2rem 0;
+        align-items: flex-start;
+    }
+
+    .topnav .search {
+        width: 300px;
+        bottom: 1rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}

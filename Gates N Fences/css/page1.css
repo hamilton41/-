@@ -1,0 +1,123 @@
+.main .sectionhero {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.main .sectionhero .text {
+    width: 60%;
+    padding: 0 2rem;
+
+}
+
+.main .sectionhero .text h1 {
+    font-size: 1.7rem;
+
+}
+
+.main .sectionhero .pic {
+    width: 40%;
+}
+
+.main .sectionhero .pic img {
+    width: 100%;
+}
+
+
+.sectiondriveway {
+    margin-top: 2.5rem;
+    background-image: url("../img/marble.jpg");
+    background-repeat: repeat-x repeat-y;
+}
+
+.sectiondriveway h2 {
+    font-family: 'Anton';
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.sectiondriveway .item {
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px solid rgba(97, 97, 97, 0.267);
+    margin: 20px;
+}
+
+.sectiondriveway .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sectiongarden {
+
+    background-image: url("../img/marble.jpg");
+    background-repeat: repeat-x repeat-y;
+}
+
+.sectiongarden h2 {
+    font-family: 'Anton';
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.sectiongarden .item {
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px solid rgba(97, 97, 97, 0.267);
+    margin: 20px;
+}
+
+.sectiongarden .item .pic {
+    width: 100%;
+}
+
+.sectiongarden .item .pic img {
+    width: 100%;
+}
+
+.sectiongarden .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sectiondriveway h3,
+.sectiongarden h3 {
+    width: 700px;
+    font-size: 2rem;
+    margin: auto;
+}
+
+
+@media (max-width: 900px) {
+    .sectiondriveway .container {
+        flex-direction: column;
+    }
+
+    .sectiongarden .container {
+        flex-direction: column;
+    }
+
+    .sectiondriveway h3,
+    .sectiongarden h3 {
+        width: 300px;
+    }
+}

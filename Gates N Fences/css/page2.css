@@ -1,0 +1,56 @@
+.main {
+    background-image: url("../img/marble.jpg");
+    padding: 5rem 0;
+}
+
+
+.item {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.item .product {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item h2 {
+    text-align: center;
+}
+
+.item .pic {
+    width: 40%;
+}
+
+.item .pic img {
+    width: 100%;
+}
+
+.item .text {
+    margin: 2rem 0 2rem 2rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+
+
+.item td button {
+    border-radius: 20px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.main h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 700;
+    font-family: 'Anton';
+    color: rgb(0, 0, 0);
+}
