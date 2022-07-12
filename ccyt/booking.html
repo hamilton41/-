@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <a href="./index.html">CC <span>Y</span>T</a>
+
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html#aboutus">關於我們</a></li>
+                <li><a href="./product.html">服務項目</a></li>
+                <li><a href="./booking.html">按我預約</a></li>
+                <li><a href="./aboutus.html">店內資訊</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <section class="booking">
+
+        <h1 class="heading-title">預約到店組裝</h1>
+
+        <form action="" method="" class="book-form">
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>姓名 :</span>
+                    <input type="text" placeholder="enter your name" name="name" required="required" id="name">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="enter your email" name="email" required="required" id="email">
+                </div>
+                <div class="inputBox">
+                    <span>電話 :</span>
+                    <input type="number" placeholder="enter your number" name="phone" required="required" id="number">
+                </div>
+                <div class="inputBox">
+                    <span>地址 :</span>
+                    <input type="text" placeholder="enter your address" name="address" required="required" id="address">
+                </div>
+                <div class="inputBox">
+                    <span>服務需求 :</span>
+                    <select name="service" required="required" id="service">
+                        <option value="">請選擇服務需求</option>
+                        <option value="board" selected>更換主機板</option>
+                        <option value="computer">組裝電腦配備</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>預約日期 :</span>
+                    <input type="date" name="arrivals" required="required" id="date">
+                </div>
+            </div>
+
+            <div class="btn" onclick="functionsubmit()"> Submit</div>
+
+
+
+        </form>
+
+
+
+
+        <div class="footer">
+            <p>&copy; 2022 CCYT All rights reserved</p>
+            <p>(02)221-12345</p>
+            <p>香港尖沙咀科學館道14號新文華中心B座</p>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script type="text/javascript">
+        function functionsubmit() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var address = document.getElementById("address").value;
+            var number = document.getElementById("number").value;
+            var service = document.getElementById("service").value;
+            var date = document.getElementById("date").value;
+            if (name == "" || email == "" || address == "" || number == "" || service == "" || date == "") {
+                alert("有選項未填寫!!");
+            }
+            if (name != "" && email != "" && address != "" && number != "" && service != "" && date != "") {
+                window.location.href = './succeed.html';
+            }
+
+        };
+    </script>
+
+</body>
+
+</html>

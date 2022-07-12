@@ -1,0 +1,365 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.header {
+    height: 5em;
+    position: relative;
+
+}
+
+.header .logo {
+    font-size: 3em;
+    font-weight: 500;
+    margin-left: 1em;
+}
+
+.header span {
+    color: rgb(255, 174, 24);
+}
+
+
+.main {
+    width: 100%;
+    height: 30em;
+    background-color: black;
+    position: relative;
+}
+
+.main img {
+    display: block;
+    width: 700px;
+    margin: auto;
+}
+
+.main .btn {
+    position: absolute;
+    bottom: 3em;
+
+    width: 77px;
+    margin: auto;
+    color: white;
+    font-size: 1.2em;
+}
+
+.main .btn.b1 {
+    left: -150px;
+    right: 0;
+    margin: auto;
+    background-color: rgb(224, 150, 13);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .btn.b1:hover {
+    background-color: rgba(224, 150, 13, 0.534);
+
+}
+
+.main .btn.b2 {
+    left: 150px;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dotted white;
+}
+
+.main .btn.b2:hover {
+    background-color: rgba(240, 248, 255, 0.342);
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.about p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.item {
+    width: 800px;
+    margin: 10em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .text {
+    position: relative;
+    left: 50px;
+    font-size: 3em;
+    width: 50%;
+}
+
+.item .text.orange {
+    color: rgb(255, 166, 0);
+}
+
+.item .pic {
+    width: 50%;
+}
+
+.item .pic img {
+    width: 100%;
+}
+
+.btn a {
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.2em;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    width: 98%;
+    margin: 5em auto 0;
+    justify-content: space-between;
+    border-top: 1px solid rgb(212, 212, 212);
+    color: rgb(160, 160, 160);
+}
+
+.booking {
+    background-image: url('../img/3760476.png');
+    width: 100%;
+    height: 44.3em;
+    color: white;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.booking .book-form .flex .inputBox input {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    text-transform: none;
+    margin-top: 1.5rem;
+    background: rgb(255, 255, 255);
+    border: 0.2px rgba(255, 255, 255, 0.514) solid;
+    border-radius: 10px;
+}
+
+.booking .book-form .flex .inputBox select {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    text-transform: none;
+    margin-top: 1.5rem;
+    background: rgb(255, 255, 255);
+    border: 0.2px rgba(255, 255, 255, 0.514) solid;
+    border-radius: 10px;
+}
+
+
+
+.booking .book-form .flex .inputBox span {
+    font-size: 1.5rem;
+    margin: 1em;
+}
+
+.booking .book-form .btn {
+    width: 150px;
+    margin: 3rem auto;
+    background: none;
+    font-size: 2em;
+    padding: 0.5rem 1rem;
+    color: aliceblue;
+    border: 3px solid rgba(245, 245, 245, 0.815);
+    background-color: rgba(240, 248, 255, 0.247);
+    border-radius: 15px;
+}
+
+.booking .book-form .btn:hover {
+    background-color: rgba(240, 248, 255, 0.411);
+}
+
+.header.shadow {
+    box-shadow: 0 2px 6px 0px rgb(177, 177, 177);
+}
+
+.introduce {
+    margin: 5em 0;
+    width: 100%;
+}
+
+.in-item {
+    margin: 5em auto;
+    width: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.in-item .text h2 {
+    font-size: 3em;
+}
+
+.in-item .text {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    margin: 30px;
+}
+
+.in-item .text .txt {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.in-item .text .txt span {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.in-item .pic {
+    height: 200px;
+    background-color: white;
+}
+
+.in-item .text p {
+    font-size: 1.3em;
+}
+
+.in-item .pic img {
+    width: 250px;
+}
+
+.product {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro-item {
+    width: 230px;
+
+
+}
+
+.pro-item .pic {
+    width: 230px;
+}
+
+.pro-item .pic img {
+    width: 100%;
+}
+
+.pro-item .text {
+    margin: 2em 0 0 5px;
+    text-align: center;
+}
+
+.pro-item span {
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.title-mid {
+    position: relative;
+    color: rgb(255, 166, 0);
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2.5em;
+    font-weight: 500;
+    background-color: white;
+}
+
+
+.text-mid {
+    margin: 2em 0 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.line {
+    margin-top: 5em;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(202, 202, 202, 0.568);
+}
+
+.container {
+    background-image: url("../img/3760476.png");
+    height: 54em;
+}
+
+.title-aboutus {
+    padding: 2em 0 1em;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+.container .text {
+    margin-left: 2em;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.container2 {
+    width: 940px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 30em;
+}
+
+.time,
+.cell,
+.add {
+    margin-top: 1em;
+}
+
+.time span {
+    display: block;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+
+.header .nav {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.header .nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.header .nav ul li {
+    margin-right: 2em;
+}
+
+.words {
+    font-size: 3em;
+}
+
+.smalltext {
+    margin-top: 1em;
+    margin-bottom: 21em;
+    font-size: 1.5em;
+}
